@@ -92,4 +92,5 @@ int main(){
 		cout<<"("<<point.first<<", "<<point.second<<")\n";
 
 	return 0;
+
 }

@@ -1,1 +1,0 @@
-try{window.localStorage.setItem('google_pub_config','{"sraConfigs":{"1":{"sraTimeout":10000},"2":{"sraTimeout":10000}}}');}catch(e){}
