@@ -17,6 +17,7 @@ int main(){
 	cin>>v>>e;
 	FOR(i,v){
 		FOR(j,v)
+		{
 			if(i!=j)
 				floyd_warshall[i][j] = 99999999;
 			else floyd_warshall[i][j] = 0;
