@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string>
 int main(){
-	int ret,rets;
+  int ret,rets;
 	long long i;
 	int d;
 	int z;
