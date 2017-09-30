@@ -11,7 +11,6 @@ int main(){
 	m=gets(a);
 	printf("\n%d",m);
 	ret =printf("Hello World\n");
-	//printf("%s",d);
 	printf("%d\n",rets);
 	printf("%d\n",ret);
 	return 0;
