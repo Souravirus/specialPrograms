@@ -18,17 +18,12 @@ int gcd(int a, int b)
 }
 vector<ulli> primeFactorise(ulli num)
 {
-    //cout<<"hello"<<endl;
     vector<ulli> myvect;
     for(int i=2; i<=num; i++)
     {
-        //cout<<"hello"<<endl;
         if(num%i==0)
         {
-            //cout<<"num found"<<endl;
             myvect.push_back(i);
-            //cout<<i<<" ";
-            //cout<<"num "<<num<<endl;
         }
     }
     return myvect;
@@ -40,7 +35,6 @@ ulli binSearch(vector<ulli> myvect, ulli a, ulli s, ulli e, ulli min)
         return min;
     if(s==e)
     {
-        //cout<<"s=e "<<s<<" "<<endl;
         if(myvect[s]==a)
             return a;
         else if(myvect[s]<a)
@@ -50,20 +44,15 @@ ulli binSearch(vector<ulli> myvect, ulli a, ulli s, ulli e, ulli min)
     }
     else if(myvect[mid]==a)
     {
-        //cout<<"mid=a"<<endl;
         return myvect[mid];
     }
     else if(myvect[mid]<a)
     {
-        //cout<<"in smaller than"<<endl;
         min=myvect[mid];
-        //cout<<"mid "<<mid<<" a"<<a<<endl;
         return binSearch(myvect, a, mid+1, e, min);
     }
     else
     {
-        //cout<<"in greater than"<<endl;
-        //cout<<"mid "<<mid<<" a"<<a;
         return binSearch(myvect, a, s, mid-1, min);
     }
 }
@@ -81,10 +70,8 @@ int main()
         b=temp;
     }
     ulli gcda=gcd(a, b);
-    //`cout<<"gcda"<<gcda<<endl;
     vector<ulli> myvect;
     myvect=primeFactorise(gcda);
-    //cout<<"factorise done"<<endl;
     ulli q;
     cin>>q;
     while(q--)
