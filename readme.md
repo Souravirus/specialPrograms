@@ -30,6 +30,8 @@ In case of any errors or bugs you encounter in any of the published code, please
 	- Adjacency Matrix
 	- Shortest Paths
 	- Topological Sort
+    - BFS
+    - DFS
  - Heap
 	- Heap
  - Maths
