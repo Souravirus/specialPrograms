@@ -45,7 +45,7 @@ In case of any errors or bugs you encounter in any of the published code, please
  - Passing Array Elements To Pointer And Traversing Like Array
  - TicTac
  - Way To Defy Private
-=======
+ 
 ## Overview:
  - This repository is a collection of a few of the implementations of the data structures and algorithms that we come across when we are a beginner in the world of programming. This repository can also contains some more advanced algorithms if anyone wants to take a look at them.
 ## Contents:
