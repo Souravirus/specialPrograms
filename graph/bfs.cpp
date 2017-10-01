@@ -31,10 +31,12 @@ int main()
     V = vector<int>(N, false); // initialize all to be false
 	
     int a, b;
-    cout << "Keep entering edges" << endl;
+    cout << "Keep entering edges between two vertice\n";
+    cout << "Note that available vertices are 0 - " << N - 1 << "\n";
     while (cin >> a >> b)
     {
         W[a].push_back(b);
+        W[b].push_back(a);
     }
 
     bfs(0, W); // bfs
