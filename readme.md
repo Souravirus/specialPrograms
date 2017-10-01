@@ -32,6 +32,13 @@ In case of any errors or bugs you encounter in any of the published code, please
 	- Topological Sort
  - Heap
 	- Heap
+ - Maths
+	- Fibonacci
+		- Fibonacci Test
+	- Multiplication
+		- Multiply 2 numbers greater than 10^5
+	- Prime number tricks
+		- List all Primes
  - Stack
 	- Stack
  - Binary Search Tree
