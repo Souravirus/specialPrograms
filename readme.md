@@ -41,6 +41,9 @@ In case of any errors or bugs you encounter in any of the published code, please
 		- List all Primes
  - Stack
 	- Stack
+ - Tree
+ 	- Treap
+		- Implicit Treap
  - Binary Search Tree
  - Convex Hull Scan
  - FloydWarshall Graph
