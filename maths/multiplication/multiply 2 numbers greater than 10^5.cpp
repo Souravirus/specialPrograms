@@ -10,7 +10,7 @@ int main()
 		ios_base::sync_with_stdio(false);
 		int n1, n2;
 		cin>>n1>>n2;
-		int c = 0, ans[10000] = {0}, i = 0, basei = 0, temp = n2, dig = 0, tmp;
+		int c = 0, ans[100000] = {0}, i = 0, basei = 0, temp = n2, dig = 0, tmp;
 		while(n1)
 		    {
 		        if(n2)
