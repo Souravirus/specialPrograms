@@ -4,7 +4,6 @@
 
 import math
 import sys
-# For storing the vertex set to retreive node with the lowest distance
 
 
 class PriorityQueue:
