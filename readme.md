@@ -11,7 +11,13 @@ In case of any errors or bugs you encounter in any of the published code, please
    >Please adhere to the contribution format w.r.t. past submissions, don't mix algorithms and their implementations with each other, comment your code properly and most importantly have fun while coding! After all, the more you code, more you learn !
 
 * ### Contents:
-
+ - Basics
+    - pointer to an array
+    - printfscanf
+    - wayToDefyPrivate
+ - Dynamic Programming
+    - dynamic programming with map
+ - Fenwick Trees
  - Sorting
 	- Bubble
 	- Selection
@@ -19,6 +25,8 @@ In case of any errors or bugs you encounter in any of the published code, please
 	- Merge
 	- Quick
 	- Radix
+ - Square Root Decomposition
+ - Tries
  - disjoint_set
 	- disjoint_set
  - Game
@@ -41,19 +49,13 @@ In case of any errors or bugs you encounter in any of the published code, please
 		- Multiply 2 numbers greater than 10^5
 	- Prime number tricks
 		- List all Primes
+    - Convex Hull
+ -  Searching
+    - BinarySearchTree
+    - KMP.cpp
+    - binarySearch
  - Stack
 	- Stack
  - Tree
  	- Treap
 		- Implicit Treap
- - Binary Search Tree
- - Convex Hull Scan
- - FloydWarshall Graph
- - KMP
- - Kosaraju
- - binarySearch
- - Dynamic With Map
- - gogi tictac
- - Passing Array Elements To Pointer And Traversing Like Array
- - TicTac
- - Way To Defy Private
