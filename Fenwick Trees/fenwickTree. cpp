@@ -1,0 +1,27 @@
+#include<iostream>
+//Find sum of range [l,r]
+using namespace std;
+
+int BIT[100], a[]={0,1,5,6,2,7,10,-2,4,-1,10,11,12,1,23,32}, n;   // BIT array represents the fenwick tree
+void update(int x, int del){   //add "del" at index "x"
+
+      for(; x <= n; x += x&-x)
+        BIT[x] += del;
+}
+int query(int x){     //returns the sum of first x elements in given array a[]
+     int sum = 0;
+     for(; x > 0; x -= x&-x)
+        sum += BIT[x];
+     return sum;
+}
+
+int main(){
+     n=15;
+     int i;
+     for(i =1; i <= n; i++){
+           update(i, a[i]);
+     }
+     cout<<"sum of first 10 elements is"<<query(10)<<endl;
+      cout<<"sum of all elements in range [3, 6] is "<<query(6)-query(2)<<endl; //query(r)-query(l)
+     return 0;
+}
