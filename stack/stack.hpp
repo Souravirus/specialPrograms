@@ -10,6 +10,9 @@ struct stackmp{
 
 	stackmp(int cap) : capacity(cap),size(0) {}
 
+	/* Description: function will add an item to the stack
+	*  Complexity:  O(1)
+	*/
 	void push(T new_data){
 		if(size == capacity){
 			cout << "Stack is full! Cannot push new element" << endl;
@@ -22,6 +25,9 @@ struct stackmp{
 		size++;
 	}
 
+	/* Description: Function will items in the stack.
+	*  Complexity:  O(n)
+	*/
 	void print(){
 		ll_node<T> *temp_node = this->top;
 		if(size == 0){
@@ -36,6 +42,10 @@ struct stackmp{
 		cout << endl;
 	}
 
+	/* Description: Function will remove an item from the stack. The item is removed (popped)
+	*	        in opposite order than pushed.
+	*  Complexity:  O(1)
+	*/
 	T pop(){
 		if(size == 0){
 			cout << "Stack is empty, can't pop" << endl;
@@ -47,17 +57,26 @@ struct stackmp{
 		return data;
 	}
 
+	/* Description: Function will return the item at the top of the stack.
+	*  Complexity:  O(1)
+	*/
 	T peek(){
 		return this->top->data;
 	}
 };
 
 template<class T>
+/* Description: Function will return the size of the stack
+*  Complexity:  O(1)
+*/
 int get_size(stackmp<T> *s){
 	return s->size;
 }
 
 template<class T>
+/* Description: Function will return the capacity of the stack
+*  Complexity:  O(1)
+*/
 int get_capacity(stackmp<T> *s){
 	return s->capacity;
 }
