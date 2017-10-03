@@ -24,7 +24,7 @@ void BubbleSort (int arr[], int n)
 int main()
 {
     int n, j;
-    cout<<"\nEnter the number of data element to be sorted: "; 
+    cout<<"\nEnter the number of the data element to be sorted: "; 
     cin>>n; // Takes input of size of the array to be sorted.
  
     int arr[n];
@@ -38,8 +38,9 @@ int main()
  
     // Displays the sorted array.
     cout<<"\nSorted Data ";
+	
     for (j = 0; j < n; j++)
-    cout<<"-->"<<arr[j];    // Outputs the final sorted array.
+    	cout<<"-->"<<arr[j];    // Outputs the final sorted array based on the data element value.
  
     return 0;
 }
