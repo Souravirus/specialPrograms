@@ -11,10 +11,10 @@
 ## How to write code:
 - Use proper indentation and have proper commenting
 - Write a small comment about each function, loop and decision statement
-- If you are writing a code of a question then give the link of the question as a comment at the start of the code
+- If you are giving a code of a question then please give the source of the question. So, that user can refer to it
 
 ## How to keep the file in the project
-- Please name the code int the following format:
-    [Name of the program].[Language of the program]
+- Please name the code in the following format:
+    [Name of the topic].[Language of the program]
 - Please put the file in its respective folder, then only send its PR
 
