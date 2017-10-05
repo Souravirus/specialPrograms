@@ -11,51 +11,48 @@ In case of any errors or bugs you encounter in any of the published code, please
    >Please adhere to the contribution format w.r.t. past submissions, don't mix algorithms and their implementations with each other, comment your code properly and most importantly have fun while coding! After all, the more you code, more you learn !
 
 * ### Contents:
- - Basics
-    - pointer to an array
-    - printfscanf
-    - wayToDefyPrivate
- - Dynamic Programming
-    - dynamic programming with map
- - Fenwick Trees
+
  - Sorting
-	- Bubble
-	- Selection
-	- Insertion
-	- Merge
-	- Quick
-	- Radix
- - Square Root Decomposition
- - Tries
+	- [Bubble](https://github.com/Souravirus/specialPrograms/blob/master/Sorting/BubbleSort.cpp)
+	- [Counting Sort](https://github.com/Souravirus/specialPrograms/blob/master/Sorting/Counting_Sort.cpp)
+	- [Selection]()
+	- [Insertion](https://github.com/Souravirus/specialPrograms/blob/master/Sorting/insertion.hpp)
+	- [Merge](https://github.com/Souravirus/specialPrograms/blob/master/Sorting/merge.hpp)
+	- [Quick](https://github.com/Souravirus/specialPrograms/blob/master/Sorting/quick.hpp)
+	- [Radix](https://github.com/Souravirus/specialPrograms/blob/master/Sorting/radix.hpp)
  - disjoint_set
-	- disjoint_set
+	- [disjoint_set](https://github.com/Souravirus/specialPrograms/blob/master/disjoint_set/disjoint_set.hpp)
  - Game
-	- gogi_tictac
-	- tictac (TicTacToe)
+	- [gogi_tictac](https://github.com/Souravirus/specialPrograms/blob/master/game/gogi_tictac.cpp)
+	- [tictac (TicTacToe)](https://github.com/Souravirus/specialPrograms/blob/master/game/tictac.cpp)
  - Graph
-	- FloydWarshall
-	- Adjacency List
-	- Adjacency Matrix
-	- Shortest Paths
-	- Topological Sort
-    - BFS
-    - DFS
+ 	- [Dijkstra - Java](https://github.com/Souravirus/specialPrograms/blob/master/graph/Dijkstra.java)
+ 	- [Dijkstra - Python](https://github.com/Souravirus/specialPrograms/blob/master/graph/Djikstra_python.py)
+	- [FloydWarshall](https://github.com/Souravirus/specialPrograms/blob/master/graph/FloydWarshall.cpp)
+	- [Adjacency List](https://github.com/Souravirus/specialPrograms/blob/master/graph/adjacency_list.hpp)
+	- [Adjacency Matrix](https://github.com/Souravirus/specialPrograms/blob/master/graph/adjacency_matrix.hpp)
+	- [Shortest Paths](https://github.com/Souravirus/specialPrograms/blob/master/graph/shortest_paths.hpp)
+	- [Topological Sort](https://github.com/Souravirus/specialPrograms/blob/master/graph/topological_sort.hpp)
  - Heap
-	- Heap
+	- [Heap](https://github.com/Souravirus/specialPrograms/blob/master/heap/heap.hpp)
  - Maths
 	- Fibonacci
-		- Fibonacci Test
+		- [Fibonacci Test](https://github.com/Souravirus/specialPrograms/blob/master/maths/fibonacci/Fibonacci%20Test.cpp)
 	- Multiplication
-		- Multiply 2 numbers greater than 10^5
+		- [Multiply 2 numbers greater than 10^5](https://github.com/Souravirus/specialPrograms/blob/master/maths/multiplication/multiply%202%20numbers%20greater%20than%2010%5E5.cpp)
 	- Prime number tricks
-		- List all Primes
-    - Convex Hull
- -  Searching
-    - BinarySearchTree
-    - KMP.cpp
-    - binarySearch
+		- [List all Primes](https://github.com/Souravirus/specialPrograms/tree/master/maths/prime%20number%20tricks)
+ - Searching
+	- [Binary Search Tree](https://github.com/Souravirus/specialPrograms/blob/master/searching/BinarySearchTree.cpp)
+	- [binarySearch](https://github.com/Souravirus/specialPrograms/blob/master/searching/binarySearch.cpp)
+ - [Segment Tree](https://github.com/Souravirus/specialPrograms/blob/master/segment_tree/segment_tree.cpp)
+ - Sorting
+ 	- [Selection Sort](https://github.com/Souravirus/specialPrograms/blob/master/sorting/selection%20sort.cpp)
  - Stack
-	- Stack
- - Tree
- 	- Treap
-		- Implicit Treap
+	- [Stack](https://github.com/Souravirus/specialPrograms/blob/master/stack/stack.hpp)
+ - [Convex Hull Scan](https://github.com/Souravirus/specialPrograms/blob/master/ConvexHullScan.cpp)
+ - [KMP](https://github.com/Souravirus/specialPrograms/blob/master/KMP.cpp)
+ - [Kosaraju](https://github.com/Souravirus/specialPrograms/blob/master/Kosaraju.cpp)
+ - [Dynamic With Map](https://github.com/Souravirus/specialPrograms/blob/master/dynamic_wih_map.cpp)
+ - [Passing Array Elements To Pointer And Traversing Like Array](https://github.com/Souravirus/specialPrograms/blob/master/passingArrayElementstoPointerandTraversingLikeArray.cpp)
+ - [Way To Defy Private](https://github.com/Souravirus/specialPrograms/blob/master/wayToDefyPrivate.cpp)
