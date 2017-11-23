@@ -29,13 +29,13 @@ void sieve_of_eratosthenes(std::vector<int>& primes, const int max) {
 }
 
 int main() {
-	int n = 100;
+	int n = 1000000;
 	vector<int> primes;
 	// Find primes up to n
 	sieve_of_eratosthenes(primes, n);
-	cout << "Primes up to "<<n<<" are:"<<endl;
-	for (auto prime : primes) {
-		cout << prime << " ";
-	}
+	//cout << "Primes up to "<<n<<" are:"<<endl;
+	//for (auto prime : primes) {
+		//cout << prime << " ";
+	//}
 	return 0;
 }
