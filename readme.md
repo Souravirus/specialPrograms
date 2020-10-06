@@ -1,7 +1,7 @@
 # specialPrograms
 ## Welcome to this repository!!
 * ### Overview
-    >This repository is a collection of few of the implementations of the data structures and algorithms that we come accross when we were a beginner in the world of programming. It also contains some advanced algorithms. This repository is open for everyone so anyone can refer to the programs/algorithms while implementing any of them.
+    >This repository is a collection of few of the implementations of the data structures and algorithms that we come accross when we were a beginner in the world of programming. It also contains some advanced algorithms. This repository is available to everyone, so that when implementing some of them, everyone can link to the programmes / algorithms.
 
 * ### Development
     >This repository is currently open to public please feel free to add your interesting programs/algorithms to the repository.
