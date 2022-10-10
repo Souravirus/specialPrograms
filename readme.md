@@ -55,7 +55,7 @@ In case of any errors or bugs you encounter in any of the published code, please
     - KMP.cpp
     - binarySearch
  - Stack
-	- Stack
+	-Stack
  - Queue
  	- Queue
  - Tree
